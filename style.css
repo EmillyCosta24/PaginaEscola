@@ -1,0 +1,106 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background: #f0f4f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #1E90FF;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+.intro {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.section {
+  background-color: #fff;
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease-in-out;
+}
+
+.section:hover {
+  transform: translateY(-3px);
+}
+
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #222;
+  border-left: 6px solid #1E90FF;
+  padding-left: 12px;
+}
+
+
+#mission-statement {
+  border-left-color: #32CD32;
+}
+
+
+#upcoming-events {
+  border-left-color: #FFA07A;
+}
+
+#upcoming-events ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#upcoming-events li {
+  padding: 10px;
+  background: #fff8f0;
+  margin: 8px 0;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+#upcoming-events li:hover {
+  background: #ffe5d1;
+}
+
+.data {
+  font-weight: bold;
+  color: #d9534f;
+  margin-right: 5px;
+}
+
+
+#contact {
+  border-left-color: #20B2AA;
+}
+
+#contact p {
+  margin: 8px 0;
+}
+
+#contact a {
+  color: #1E90FF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
